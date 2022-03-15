@@ -49,6 +49,8 @@
 
 ex) [Discussions 작성예시](https://github.com/ghdcksgml1/Algorithm_Study/discussions/87)
 
+Discussions 작성 후 Pull Request를 보내주시면 됩니다! (Pull Request 방법은 아래에 나옵니다!)
+
 <br/>
 
 알고리즘 강의 영상은 제가 좋은 자료를 찾아서 링크 올려드리겠습니다.
