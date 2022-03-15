@@ -16,7 +16,7 @@
 
 <br/>
 
-## 📘 스터디를 통해 얻어갈 수 있는 것!
+# 📘 스터디를 통해 얻어갈 수 있는 것!
 
 <br/>
 
@@ -30,7 +30,7 @@
 
 <br/>
 
-## 🧩 스터디 방식
+# 🧩 스터디 방식
 
 <br/>
 
@@ -56,7 +56,19 @@ ex) [Discussions 작성예시](https://github.com/ghdcksgml1/Algorithm_Study/dis
 
 <br/>
 
-## ❓ 질문 하는법
+# 📁 공부 방법
+
+1️⃣ 제공받은 알고리즘 동영상 강의를 한번 쭉 듣는다.
+
+2️⃣ 다시한번 강의를 듣고 알고리즘을 받아 적는다.
+
+3️⃣ 어떤식으로 알고리즘을 적용하면 좋을지 생각하며 문제를 풀어본다.
+
+4️⃣ 문제를 풀면서 막히는 부분이 있으면 알고리즘 내용에서 막히는지 아이디어가 막히는건지 생각해본다.
+
+<br/>
+
+# ❓ 질문 하는법
 
 <br/>
 
@@ -68,3 +80,176 @@ ex) [Discussions 작성예시](https://github.com/ghdcksgml1/Algorithm_Study/dis
 
 ### ‼️ 코드에 관한 질문을 할때에는 꼭 주석을 달아주세요. (그래야 빠른 답변이 가능합니다!)
 
+<br/>
+
+# ✅ 주의사항
+
+<br/>
+
+1️⃣ 최대한 모임에 참석하기
+
+2️⃣ 성실하게 문제 풀기
+
+3️⃣ 이쁜말 사용하기
+
+4️⃣ 모르면 물어보기 (중요!!)
+
+<br/>
+
+# 👨‍👨‍👦 멤버
+
+<br/>
+
+<table>
+  <tr>
+    <td height="140px" align="center"> <a href="https://github.com/ghdcksgml1"><img src="https://avatars.githubusercontent.com/u/79779676?s=460&v=4" width="140px" /><br/></a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://solved.ac/ghdcks33"><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=ghdcks33" /></td>
+  </tr>
+  <tr>
+    <td align="center">단국대 컴퓨터공학과<br/>👦🏻 홍찬희 (스터디장)</td>
+  </tr>
+</table>
+
+<br/>
+
+# 🔗 이용규칙
+
+❗️ 해당 규칙을 지키지 않으면 pull request가 취소 될 수 있다. ❗️
+
+<br/>
+
+### 1️⃣ 문제를 푼 코드 첫째줄에는 다음과 같이 주석을 달자.
+
+백준에 정답을 제출해서 맞췄을 때 나오는 결과를 적어주면 됩니다.
+
+- Example
+
+```c++
+  // 언어 : C++ , (성공/실패) : 1/0 , 메모리 : 2796 KB , 시간 : 92ms
+```
+
+<img width="721" alt="Screen Shot 2021-08-11 at 1 58 13 PM" src="https://user-images.githubusercontent.com/79779676/128972022-16b13afc-ff52-495a-86a0-26c24691a8a4.png">
+
+<br/><br/>
+
+* JAVA
+
+```java
+  // 언어 : JAVA , (성공/실패) : 1/4 , 메모리 : 45008 KB , 시간 : 208 ms
+```
+
+* Python
+
+```python
+  # 언어 : Python , (성공/실패) : 1/4 , 메모리 : 45008 KB , 시간 : 208 ms
+```
+
+<br/>
+
+### 2️⃣ 폴더와 파일이름 저장 규칙
+
+예를들어) 문제가 1000_A+B라고 하면,
+
+1. 1000_A+B 폴더에 들어간다.
+2. (이름_사용언어) 폴더를 만든다.
+3. 폴더에 들어가 작성한 파일을 (문제번호_문제이름)으로 만든다. (자바의 경우는 프로젝트 이름을 저렇게 바꿔준다.)
+
+<img width="761" alt="Screen Shot 2021-08-11 at 2 36 35 PM" src="https://user-images.githubusercontent.com/79779676/128975146-d8980e1d-b526-457f-a9d1-901cc721f1cf.png">
+
+<br/>
+
+### 3️⃣ 코딩 테스트를 목적으로 하는 스터디이기 때문에 의미없는 변수 남발 x
+
+코딩 테스트에 합격하게 되면, 면접 때 그 코드를 리뷰할 수도 있고
+
+또는, 면접관이 직접 채점하는 경우도 있기 때문에 의미없는 변수를 남발하면 안된다.
+
+- **Example) C++**
+
+```C++
+// 문제 : 가격과 물품의 수량을 받아 총 물품의 가격을 출력하는 프로그램을 작성하시오.
+// 나쁜 예
+#include <iostream>
+
+using namespace std;
+
+int main(void){
+  int a,b; // 의미없는 변수
+  cin >> a >> b;
+  cout << a << b;
+}
+
+// 좋은 예
+#include <iostream>
+
+using namespace std;
+
+int main(void){
+  int price,items; // 변수 이름을 잘 정하자!
+  cin >> price >> items;
+  cout << price << items;
+}
+```
+
+- **예외 경우** (문제에서 주어진 변수가 다음과 같을 때)
+
+<img width="291" alt="Screen Shot 2021-08-11 at 2 53 56 PM" src="https://user-images.githubusercontent.com/79779676/128976733-e5cb89fa-9e76-4be7-b43a-461df4a400a3.png">
+
+이럴땐, N,M과 같은 변수를 쓰는게 코드를 보는 입장에서 알아보기 더욱 쉽기 때문에, 그냥 N,M을 변수로 쓴다.
+
+<br/><br/>
+
+### 4️⃣ Pull requests 방법 (제출방법)
+
+<br/>
+
+<a href="https://blog.naver.com/ghdcksgml2/222466153666">Pull requests 방법</a> <= 링크를 타고 들어가면 나옵니다.
+
+<br/><br/>
+
+# 🎨 커리큘럼
+
+<table>
+  <tr>
+    <td width="100" align="center">이름</td>
+    <td align="center">1주차<br/>(백준 적응하기)</td>
+    <td align="center">2주차<br/>(정렬)</td>
+    <td align="center">3주차<br/>(자료구조)</td>
+    <td align="center">4주차<br/>(에라토스테네스의 체)</td>
+    <td align="center">5주차<br/>(동적 프로그래밍)</td>
+    <td align="center">6주차<br/>(투 포인터)</td>
+    <td align="center">7주차<br/>(이분 탐색)</td>
+    <td align="center">8주차<br/>(백트래킹)</td>
+  </tr>
+  <tr>
+    <td align="center">홍찬희</td>
+    <td align="center">✅</td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+  </tr>
+</table>
+
+<br/>
+
+# 💬 알고리즘 스터디의 목표
+
+<br/> 
+
+마지막으로, 이번 알고리즘 스터디의 목표는 알고리즘 정복!! 이런게 절대 아닙니다.
+
+먼저 알고리즘을 접해본 스터디장이 스스로 알고리즘을 공부하는 방법과
+
+어떤 방법으로 코드를 작성해야 가독성이 좋아지는지 등 습관들을 잡아주는 스터디라고 생각하시면 될 것 같습니다.
+
+이번 과정이 끝나고 위 알고리즘이 다 이해가지 않으셔도 괜찮습니다! (누구나 다 그래요 ㅋㅋ)
+
+성실하게 하루에 1문제 이상씩만 문제를 푸셔도 금방 머리속에 들어오고 다 외워져요.
+
+알고리즘은 문제를 많이 풀어본 사람이 무조건적으로 유리하기 때문에 이번 스터디를 통해 알고리즘을 푸는 습관을 잘 만들어 가셨으면 좋겠습니다.
