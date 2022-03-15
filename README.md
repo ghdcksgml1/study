@@ -107,6 +107,8 @@ Discussions 작성 후 Pull Request를 보내주시면 됩니다! (Pull Request 
 
 4️⃣ 모르면 물어보기 (중요!!)
 
+5️⃣ 너무 앞서나가지 마세요. ( 다같이 진도를 맞춥시다! 단, 추가로 문제를 원하시는 경우 문제를 찾아서 제공해드리겠습니다. 😁)
+
 <br/>
 
 # 👨‍👨‍👦 멤버
@@ -237,14 +239,14 @@ int main(void){
     <td align="center">8주차<br/>(백트래킹)</td>
   </tr>
   <tr>
-    <td align="center">홍찬희</td>
+    <td align="center">ex) 홍찬희</td>
     <td align="center">✅</td>
     <td align="center"></td>
+    <td align="center">✅</td>
+    <td align="center">✅</td>
     <td align="center"></td>
-    <td align="center"></td>
-    <td align="center"></td>
-    <td align="center"></td>
-    <td align="center"></td>
+    <td align="center">✅</td>
+    <td align="center">✅</td>
     <td align="center"></td>
   </tr>
 </table>
