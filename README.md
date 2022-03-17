@@ -124,12 +124,24 @@ Discussions 작성 후 Pull Request를 보내주시면 됩니다! (Pull Request 
 <table>
   <tr>
     <td height="140px" align="center"> <a href="https://github.com/ghdcksgml1"><img src="https://avatars.githubusercontent.com/u/79779676?s=460&v=4" width="140px" /><br/></a></td>
+    <td height="140px" align="center"> <a href="https://github.com/saesang"><img src="https://avatars.githubusercontent.com/u/86196342?s=460&v=4" width="140px" /><br/></a></td>
+    <td height="140px" align="center"> <a href="https://github.com/deblur99"><img src="https://avatars.githubusercontent.com/u/64126018?s=460&v=4" width="140px" /><br/></a></td>
+    <td height="140px" align="center"> <a href="https://github.com/siwooJang"><img src="https://avatars.githubusercontent.com/u/88125431?s=460&v=4" width="140px" /><br/></a></td>
+    <td height="140px" align="center"> <a href="https://github.com/wlsl10"><img src="https://avatars.githubusercontent.com/u/77524688?s=460&v=4" width="140px" /><br/></a></td>
   </tr>
   <tr>
     <td align="center"><a href="https://solved.ac/ghdcks33"><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=ghdcks33" /></td>
+    <td align="center"><a href="https://solved.ac/saesang"><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=saesang" /></td>
+    <td align="center"><a href="https://solved.ac/deblur99"><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=deblur99" /></td>
+    <td align="center"><a href="https://solved.ac/siwoojang"><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=siwoojang" /></td>
+    <td align="center"><a href="https://solved.ac/qrs1290"><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=qrs1290" /></td>
   </tr>
   <tr>
-    <td align="center">단국대 컴퓨터공학과<br/>👦🏻 홍찬희 (스터디장)</td>
+    <td align="center">단국대학교<br/>컴퓨터공학과<br/>👦🏻 홍찬희 (스터디장)</td>
+    <td align="center">단국대학교<br/>소프트웨어학과<br/>👦🏻 탁세하 (스터디원)</td>
+    <td align="center">단국대학교<br/>모바일시스템공학과<br/>👦🏻 한현민 (스터디원)</td>
+    <td align="center">단국대학교<br/>소프트웨어학과<br/>👦🏻 장시우 (스터디원)</td>
+    <td align="center">단국대학교<br/>소프트웨어학과<br/>👦🏻 김예진 (스터디원)</td>
   </tr>
 </table>
 
