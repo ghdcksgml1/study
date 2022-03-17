@@ -128,6 +128,7 @@ Discussions 작성 후 Pull Request를 보내주시면 됩니다! (Pull Request 
     <td height="140px" align="center"> <a href="https://github.com/deblur99"><img src="https://avatars.githubusercontent.com/u/64126018?s=460&v=4" width="140px" /><br/></a></td>
     <td height="140px" align="center"> <a href="https://github.com/siwooJang"><img src="https://avatars.githubusercontent.com/u/88125431?s=460&v=4" width="140px" /><br/></a></td>
     <td height="140px" align="center"> <a href="https://github.com/wlsl10"><img src="https://avatars.githubusercontent.com/u/77524688?s=460&v=4" width="140px" /><br/></a></td>
+    <td height="140px" align="center"> <a href="https://github.com/1006lem"><img src="https://avatars.githubusercontent.com/u/68532437?s=460&v=4" width="140px" /><br/></a></td>
   </tr>
   <tr>
     <td align="center"><a href="https://solved.ac/ghdcks33"><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=ghdcks33" /></td>
@@ -135,6 +136,7 @@ Discussions 작성 후 Pull Request를 보내주시면 됩니다! (Pull Request 
     <td align="center"><a href="https://solved.ac/deblur99"><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=deblur99" /></td>
     <td align="center"><a href="https://solved.ac/siwoojang"><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=siwoojang" /></td>
     <td align="center"><a href="https://solved.ac/qrs1290"><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=qrs1290" /></td>
+    <td align="center"><a href="https://solved.ac/1006lem"><img src="http://mazassumnida.wtf/api/mini/generate_badge?boj=1006lem" /></td>
   </tr>
   <tr>
     <td align="center">단국대학교<br/>컴퓨터공학과<br/>👦🏻 홍찬희 (스터디장)</td>
@@ -142,6 +144,7 @@ Discussions 작성 후 Pull Request를 보내주시면 됩니다! (Pull Request 
     <td align="center">단국대학교<br/>모바일시스템공학과<br/>👦🏻 한현민 (스터디원)</td>
     <td align="center">단국대학교<br/>소프트웨어학과<br/>👦🏻 장시우 (스터디원)</td>
     <td align="center">단국대학교<br/>소프트웨어학과<br/>👦🏻 김예진 (스터디원)</td>
+    <td align="center">단국대학교<br/>소프트웨어학과<br/>👦🏻 김규민 (스터디원)</td>
   </tr>
 </table>
 
@@ -257,14 +260,58 @@ int main(void){
     <td align="center">8주차<br/>(백트래킹)</td>
   </tr>
   <tr>
-    <td align="center">ex) 홍찬희</td>
-    <td align="center">✅</td>
+    <td align="center">👤 탁세하</td>
     <td align="center"></td>
-    <td align="center">✅</td>
-    <td align="center">✅</td>
     <td align="center"></td>
-    <td align="center">✅</td>
-    <td align="center">✅</td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td align="center">👤 한현민</td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td align="center">👤 장시우</td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td align="center">👤 김예진</td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td align="center">👤 김규민</td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
     <td align="center"></td>
   </tr>
 </table>
