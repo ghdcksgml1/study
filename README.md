@@ -261,7 +261,7 @@ int main(void){
   </tr>
   <tr>
     <td align="center">👤 탁세하</td>
-    <td align="center"></td>
+    <td align="center">✅</td>
     <td align="center"></td>
     <td align="center"></td>
     <td align="center"></td>
