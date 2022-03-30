@@ -169,7 +169,7 @@ https://github.com/ghdcksgml1/cpp_Algorithm_implementation
 
 <br/><br/>
 
-# 📘 과제 ✅ 표시 전부풀기 (풀고나서 Discussions에 아이디어, 시간복잡도까지 써서 제출해주세요!)
+## 📘 과제 ✅ 표시 전부풀기 (풀고나서 Discussions에 아이디어, 시간복잡도까지 써서 제출해주세요!)
 
 <table>
   <tr>
