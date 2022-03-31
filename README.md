@@ -144,7 +144,7 @@ Discussions 작성 후 Pull Request를 보내주시면 됩니다! (Pull Request 
     <td align="center">단국대학교<br/>모바일시스템공학과<br/>👦🏻 한현민 (스터디원)</td>
     <td align="center">단국대학교<br/>소프트웨어학과<br/>👦🏻 장시우 (스터디원)</td>
     <td align="center">단국대학교<br/>소프트웨어학과<br/>👦🏻 김예진 (스터디원)</td>
-    <td align="center">단국대학교<br/>소프트웨어학과<br/>👦🏻 김규민 (스터디원)</td>
+    <td align="center">단국대학교<br/><br/>👦🏻 김규민 (스터디원)</td>
   </tr>
 </table>
 
