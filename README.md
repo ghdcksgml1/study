@@ -294,7 +294,7 @@ int main(void){
   </tr>
   <tr>
     <td align="center">👤 김예진</td>
-    <td align="center"></td>
+    <td align="center">✅</td>
     <td align="center"></td>
     <td align="center"></td>
     <td align="center"></td>
