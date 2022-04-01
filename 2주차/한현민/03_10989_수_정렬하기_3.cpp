@@ -21,7 +21,7 @@ int main() {
         countArr[item]++;
     }
     
-    // 4MB 제한 (int * 100만) 걸려 있으므로 별도의 배열에 저장하지 않고 바로 출력해야 함
+    // 8MB 제한 (처리해야 하는 용량은 최대 int * 1000만 = 40MB) 걸려 있으므로 별도의 배열에 저장하지 않고 바로 출력해야 함
     for (int i = 1; i <= MAX_VAL; i++) {
         if (countArr[i] > 0) {
             for (int j = 0; j < countArr[i]; j++) {
