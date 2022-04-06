@@ -1,59 +1,48 @@
 #include <iostream>
-#include <vector>
 #include <algorithm>
+#include <vector>
 #include <cmath>
-
-int arr[8001];
-
 using namespace std;
-
-int main()
-{
-	int x;
-	cin >> x;
-	int sum = 0;
-	int index = 0;
-	int max = 0;
-	vector<int> list;
-	for (int i = 0; i < x; i++)
-	{
-		int num;
-		cin >> num;
-		sum += num;
-		if (num <= 0)
-			index = -num;
-		else
-			index = 4000 + num;
-		arr[index]++;
-		if (arr[index] > max)
-			max = arr[index];
-		list.push_back(num);
-	}
-
-	float avg = sum / (float)x;
-	cout << round(avg) << '\n';
-
-	sort(list.begin(), list.end());
-	cout << list[list.size() / 2] << '\n';
-
-	bool flag = false;
-	int result = 0;
-	for (int i = -4000; i < 4001; i++)
-	{
-		if (i <= 0)
-			index = -i;
-		else
-			index = 4000 + i;
-		if (arr[index] == max)
-		{
-			result = i;
-			if (flag)
-				break;
-			flag = true;
-		}
-	}
-
-	cout << result << '\n';
-
-	cout << list[list.size() - 1] - list[0];
+vector<int> arr;
+int main() {
+	
+    ios::sync_with_stdio(0);
+    cin.tie(0); cout.tie(0);
+	
+    int num, tmp, range, middle = 0, most_val, mean = 0;
+    int most = -9999;
+    int number[8001] = { 0, };
+    bool not_first = false;
+    cin >> num;
+    for (int i = 0; i < num; i++)
+    {
+        cin >> tmp;
+        arr.push_back(tmp);
+        mean += tmp;
+        number[tmp + 4000]++;
+    }
+    sort(arr.begin(), arr.end());
+    for (int i = 0; i < 8001; i++)
+    {
+        if (number[i] == 0)
+            continue;
+        if (number[i] == most)
+        {
+            if (not_first)
+            {
+                most_val = i - 4000;
+                not_first = false;
+            }
+        }
+        if (number[i] > most)
+        {
+            most = number[i];
+            most_val = i - 4000;
+            not_first = true;
+        }
+    }
+    middle = arr[arr.size() / 2];
+    mean = round((float)mean / num);
+    range = arr.back() - arr.front();
+    cout << mean << '\n' << middle << '\n' << most_val << '\n' << range;
 }
