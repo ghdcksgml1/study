@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 #include <vector>
 #include <algorithm>
 #include <unordered_map>
@@ -9,6 +9,10 @@ unordered_map<string, int> um;
 
 int main()
 {
+    
+    ios::sync_with_stdio(0);
+	cin.tie(0); cout.tie(0);
+    
     int n, m;
     cin >> n >> m;
     vector <string> v;
