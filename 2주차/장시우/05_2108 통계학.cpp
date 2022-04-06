@@ -1,3 +1,6 @@
+  // 언어 : C++ , (성공/실패) : 1/1 , 메모리 : 5108 KB , 시간 : 216ms
+
+
 #include <iostream>
 #include <algorithm>
 #include <vector>
