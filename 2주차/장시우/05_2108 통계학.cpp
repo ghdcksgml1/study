@@ -1,30 +1,36 @@
-  // 언어 : C++ , (성공/실패) : 1/1 , 메모리 : 5108 KB , 시간 : 216ms
-
+  // 언어 : C++ , (성공/실패) : 2/2 , 메모리 : 5224 KB , 시간 : 76ms
 
 #include <iostream>
 #include <algorithm>
 #include <vector>
 #include <cmath>
+
 using namespace std;
+
 vector<int> arr;
+
 int main() {
-	
+
     ios::sync_with_stdio(0);
     cin.tie(0); cout.tie(0);
-	
-    int num, tmp, range, middle = 0, most_val, mean = 0;
+
+    int n, tmp, range, middle = 0, most_val, sum = 0;
     int most = -9999;
     int number[8001] = { 0, };
+
     bool not_first = false;
-    cin >> num;
-    for (int i = 0; i < num; i++)
+
+    cin >> n;
+    for (int i = 0; i < n; i++)
     {
         cin >> tmp;
         arr.push_back(tmp);
-        mean += tmp;
+        sum += tmp;
         number[tmp + 4000]++;
     }
+
     sort(arr.begin(), arr.end());
+
     for (int i = 0; i < 8001; i++)
     {
         if (number[i] == 0)
@@ -45,7 +51,7 @@ int main() {
         }
     }
     middle = arr[arr.size() / 2];
-    mean = round((float)mean / num);
+    sum = round((float)sum / n);
     range = arr.back() - arr.front();
-    cout << mean << '\n' << middle << '\n' << most_val << '\n' << range;
+    cout << sum << '\n' << middle << '\n' << most_val << '\n' << range;
 }
