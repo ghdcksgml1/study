@@ -1,3 +1,6 @@
+  // 언어 : C++ , (성공/실패) : 1/0 , 메모리 : 	12816 KB , 시간 : 52ms
+
+
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -11,7 +14,7 @@ int main()
 {
     
     ios::sync_with_stdio(0);
-	cin.tie(0); cout.tie(0);
+    cin.tie(0); cout.tie(0);
     
     int n, m;
     cin >> n >> m;
