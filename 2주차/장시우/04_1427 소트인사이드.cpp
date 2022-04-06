@@ -1,4 +1,4 @@
-// ¾ğ¾î : C++ , (¼º°ø/½ÇÆĞ) : 1/0 , ¸Ş¸ğ¸® : 2020 KB , ½Ã°£ : 0ms
+// ì–¸ì–´ : C++ , (ì„±ê³µ/ì‹¤íŒ¨) : 1/0 , ë©”ëª¨ë¦¬ : 2020 KB , ì‹œê°„ : 0ms
 
 #include <iostream>
 #include <algorithm>
@@ -8,6 +8,10 @@ using namespace std;
 int arr[10];
 
 int main() {
+	
+	ios::sync_with_stdio(0);
+	cin.tie(0); cout.tie(0);
+	
 	int n; cin >> n;
 	int cnt = 0;
 	while (n != 0) {
@@ -17,8 +21,8 @@ int main() {
 	}
 
 	sort(arr, arr + cnt, greater<int>());
-	/* sort(start, end, grearter<ÀÚ·áÇü>())¸¦ ÀÌ¿ëÇÏ¸é
-	 [start,end) ¹üÀ§ÀÇ ÀÎÀÚ¸¦ ³»¸²Â÷¼øÀ¸·Î Á¤·ÄÇØ ÁØ´Ù.*/
+	/* sort(start, end, grearter<ìë£Œí˜•>())ë¥¼ ì´ìš©í•˜ë©´
+	 [start,end) ë²”ìœ„ì˜ ì¸ìë¥¼ ë‚´ë¦¼ì°¨ìˆœìœ¼ë¡œ ì •ë ¬í•´ ì¤€ë‹¤.*/
 
 	for (int i = 0; i < cnt; i++)
 	{
