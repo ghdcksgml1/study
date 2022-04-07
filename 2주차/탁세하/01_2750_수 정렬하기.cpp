@@ -1,3 +1,5 @@
+// 언어 : C++ , (성공/실패) : 1/0 , 메모리 : 2024 KB , 시간 : 0ms
+
 #include <iostream>
 #include <algorithm>
 
