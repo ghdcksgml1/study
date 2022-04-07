@@ -262,7 +262,7 @@ int main(void){
   <tr>
     <td align="center">👤 탁세하</td>
     <td align="center">✅</td>
-    <td align="center"></td>
+    <td align="center">✅</td>
     <td align="center"></td>
     <td align="center"></td>
     <td align="center"></td>
@@ -295,7 +295,7 @@ int main(void){
   <tr>
     <td align="center">👤 김예진</td>
     <td align="center">✅</td>
-    <td align="center"></td>
+    <td align="center">✅</td>
     <td align="center"></td>
     <td align="center"></td>
     <td align="center"></td>
