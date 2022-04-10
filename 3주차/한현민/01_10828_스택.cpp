@@ -9,11 +9,6 @@ private:
     std::string _opcode;
     int _operand;
 
-    void reset() {
-        _opcode.clear();
-        _operand = 100001;
-    }
-
     bool isEmpty() {
         if (stack.empty()) {
             std::cout << "-1\n"; 
@@ -24,28 +19,20 @@ private:
 
 public:
     Command() {
-        reset();
+        _opcode.clear();
+        _operand = 100001;
     }
-
-    Command(std::string opcode, int operand) {
-        _opcode = opcode;
-        _operand = operand;
-    }
-
-    void setOpcode(std::string opcode) {
+    
+    Command(std::string opcode): Command() {
         _opcode = opcode;
     }
 
-    void setOperand(int operand) {
+    Command(std::string opcode, int operand): Command(opcode) {
         _operand = operand;
     }
 
     void process() {
-        if (_opcode.empty()) {
-            return;
-        }
-
-        if (_operand > 100000) {
+        if (_opcode.empty() || _operand > 100000) {
             return;
         }
 
