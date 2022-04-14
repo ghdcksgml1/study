@@ -159,6 +159,18 @@ deque<int> dq; // deque 선언
     <td align="center">풍선 터뜨리기</td>
     <td align="center"><a href="https://www.acmicpc.net/problem/2346">바로가기</a></td>
   </tr>
+  <tr>
+    <td align="center">08</td>
+    <td align="center"></td>
+    <td align="center"><img height="23px" width="25px" src="https://d2gd6pc034wcta.cloudfront.net/tier/11.svg"></td>
+    <td align="center">14891</td>
+    <td align="center">톱니바퀴</td>
+    <td align="center"><a href="https://www.acmicpc.net/problem/14891">바로가기</a></td>
+  </tr>
 </table>
+
+- 8번 문제 정답풀이입니다. **(특별한 알고리즘 없이 구현력이 요구되는 문제입니다.)**
+
+**링크: https://blog.naver.com/ghdcksgml2/222401090306**
 
 <br/><br/>
