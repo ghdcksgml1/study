@@ -130,7 +130,7 @@ int main(void){
   </tr>
   <tr>
     <td align="center">06</td>
-    <td align="center">✅</td>
+    <td align="center"></td>
     <td align="center"><img height="23px" width="25px" src="https://d2gd6pc034wcta.cloudfront.net/tier/15.svg"></td>
     <td align="center">1016</td>
     <td align="center">제곱 ㄴㄴ수</td>
