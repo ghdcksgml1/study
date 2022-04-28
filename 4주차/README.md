@@ -35,32 +35,43 @@ Ex.)
 
 코드 🔽
 
-```c
-#include <stdio.h>
+```c++
+#include <iostream>
+#include <vector>
 
-bool Num[11];
+using namespace std;
 
-void PrimeNum(int N,int M){
-     for(int i=2;i*i<=M;i++){
-          if(Num[i] == true) continue; // true인 경우 i의 배수의 경우도 무조건 다 true이다. ex) i=4일경우
-          for(int j=2;i*j<=M;j++){
-               Num[i*j] = true;
-          }
-     }
+bool PN[11];
+
+vector<int> v;
+
+void PrimeNum(){
+    for(int i=2;i<=10;i++){
+        if(PN[i] == true) continue;
+        for(int j=2;i*j<=10;j++){
+            PN[i*j] = true;
+        }
+    }
+
+    // 2 3 4 5 6 7 8 9 10
+    // F F T F T F T T T
+    for(int i=2;i<=10;i++){
+        if(PN[i] == false) v.push_back(i);
+    }
+    // v : 2,3,5,7
 }
 
 int main(void){
-     int n = 2;
-     int m = 10;
-     
-     PrimeNum(2,10);
-     
-     for(int i=N;i<M;i++){
-          if(Num[i] == false)
-               printf("%d ",i);
-     }
-     
-     return 0;
+    // 입출력 속도 최적화
+    ios::sync_with_stdio(0);
+    cin.tie(0); cout.tie(0);
+
+    PrimeNum();
+    for(int i=0;i<v.size();i++){
+        cout<<v[i]<<' ';
+    }
+
+    return 0;
 }
 ```
 
