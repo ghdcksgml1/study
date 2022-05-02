@@ -37,7 +37,7 @@ int main(void) {
 	deque<int> deque; //소수들을 차례로 넣어줄 deque(나중에 sum이 넘칠때 sum에서 뺄 소수를 잠시 기억해줌)
 
 	for (int i = 0; i < Prime.size(); i++) { //Prime[0], Prime[1],...에 소수가 차례로 들어있음
-
+	
 		deque.push_back(Prime[i]); //현재 소수를 deque에 넣음
 		sum += Prime[i]; //현재 소수를 일단 sum에 더하고 비교
 		
@@ -46,9 +46,10 @@ int main(void) {
 			sum -= deque.front();
 			deque.pop_front(); //가장 작은 원소를 계속해서 빼
 		}
+		
     
-    //deque에서 가장 작은 원소들을 계속 빼나가 sum == N이 되거나, whlie루프를 돌지 않고도 sum == N이 되었을 때
-    if (sum == N) { //찾는 값과 같아 count 증가
+    		//deque에서 가장 작은 원소들을 계속 빼나가 sum == N이 되거나, whlie루프를 돌지 않고도 sum == N이 되었을 때
+    		if (sum == N) { //찾는 값과 같아 count 증가
 			count++;
 		}
 		
