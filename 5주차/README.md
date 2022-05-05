@@ -146,13 +146,37 @@ int main(void){
   <tr>
     <td align="center">04</td>
     <td align="center">✅</td>
+    <td align="center"><img height="23px" width="25px" src="https://d2gd6pc034wcta.cloudfront.net/tier/8.svg"></td>
+    <td align="center">1463</td>
+    <td align="center">1로 만들기</td>
+    <td align="center"><a href="https://www.acmicpc.net/problem/1463">바로가기</a></td>
+  </tr>
+  <tr>
+    <td align="center">05</td>
+    <td align="center">✅</td>
+    <td align="center"><img height="23px" width="25px" src="https://d2gd6pc034wcta.cloudfront.net/tier/8.svg"></td>
+    <td align="center">2579</td>
+    <td align="center">계단 오르기</td>
+    <td align="center"><a href="https://www.acmicpc.net/problem/2579">바로가기</a></td>
+  </tr>
+  <tr>
+    <td align="center">06</td>
+    <td align="center">✅</td>
+    <td align="center"><img height="23px" width="25px" src="https://d2gd6pc034wcta.cloudfront.net/tier/8.svg"></td>
+    <td align="center">9095</td>
+    <td align="center">1,2,3 더하기</td>
+    <td align="center"><a href="https://www.acmicpc.net/problem/9095">바로가기</a></td>
+  </tr>
+  <tr>
+    <td align="center">07</td>
+    <td align="center">✅</td>
     <td align="center"><img height="23px" width="25px" src="https://d2gd6pc034wcta.cloudfront.net/tier/9.svg"></td>
     <td align="center">1106</td>
     <td align="center">호텔</td>
     <td align="center"><a href="https://www.acmicpc.net/problem/1106">바로가기</a></td>
   </tr>
   <tr>
-    <td align="center">05</td>
+    <td align="center">08</td>
     <td align="center">✅</td>
     <td align="center"><img height="23px" width="25px" src="https://d2gd6pc034wcta.cloudfront.net/tier/10.svg"></td>
     <td align="center">2294</td>
@@ -160,7 +184,7 @@ int main(void){
     <td align="center"><a href="https://www.acmicpc.net/problem/2294">바로가기</a></td>
   </tr>
   <tr>
-    <td align="center">06</td>
+    <td align="center">09</td>
     <td align="center"></td>
     <td align="center"><img height="23px" width="25px" src="https://d2gd6pc034wcta.cloudfront.net/tier/10.svg"></td>
     <td align="center">21317</td>
