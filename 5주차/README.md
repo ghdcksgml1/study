@@ -213,10 +213,10 @@ int main(void){
 </div>
 </details>
 
-### 3번
+### 3,4,5,6번
 <details>
 <summary>힌트보기</summary>
 <div markdown="2">
-  **문제해설 :** https://www.youtube.com/watch?v=YHZiWaL49HY&list=PLRx0vPvlEmdDHxCvAQS1_6XV4deOwfVrz&index=22
+   강의 영상 : https://www.youtube.com/watch?v=5leTtB3PQu0
 </div>
 </details>
