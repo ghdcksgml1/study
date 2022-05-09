@@ -1,4 +1,4 @@
-﻿// 언어 : C++, (성공 / 실패) : 1 / 0, 메모리 : 2020kb, 시간 : 0ms
+// 언어 : C++, (성공 / 실패) : 2 / 0, 메모리 : 2020kb, 시간 : 0ms
 
 #include <iostream>
 
@@ -14,17 +14,14 @@ int main() {
 	cin >> t;
 	for (int i = 0; i < t; i++) {
 		num = 1;
-		cin >> n >> m;
+		cin >> n >> m;  // mCn or mC(m-n)
 
-		if (n > (m / 2)) {
+		if (n > m / 2)
 			n = m - n;
-		}
-		for (int j = m; j > m - n; j--) {
+		for (int j = m; j > m - n; j--)
 			num *= j;
-		}
-		for (int j = n; j >0; j--) {
+		for (int j = n; j > 0; j--)
 			num /= j;
-		}
 
 		cout << num << '\n';
 	}
