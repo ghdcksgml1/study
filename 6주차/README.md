@@ -1,22 +1,103 @@
-## 📚 01_Sort 1
-
-순서대로 푸는게 좋아요.
-
-추천 문제는 (✅ 체크표시) 했습니다.
+## 📚 06_투 포인터 (Two Pointer)
 
 <br/>
 
-2750번은 QuickSort [[추천강의](https://www.youtube.com/watch?v=7BDzle2n47c)]
 
-2751번은 MergeSort 로 풉시다.
 
-❗️ QuickSort와 MergeSort의 시간복잡도까지 알아오기.
+<img width="968" alt="스크린샷 2022-05-18 오후 3 44 16" src="https://user-images.githubusercontent.com/79779676/168974668-e0e6e696-6b26-48d9-ad74-8bf2f2c96a52.png">
 
-그 이후론 sort함수 써도됌
+---
 
-완료 : **홍찬희**, **이주성**, **소경민**, **정유빈**
+<img width="960" alt="스크린샷 2022-05-18 오후 3 44 22" src="https://user-images.githubusercontent.com/79779676/168974678-a7b0881a-658d-4399-a0ba-e8474308f096.png">
 
-<br/>
+---
+
+<img width="968" alt="스크린샷 2022-05-18 오후 3 44 27" src="https://user-images.githubusercontent.com/79779676/168974679-db4fcb15-0682-4f37-9352-aeba44515ccc.png">
+
+---
+
+
+<img width="973" alt="스크린샷 2022-05-18 오후 3 44 33" src="https://user-images.githubusercontent.com/79779676/168974683-91c84da2-4227-485e-8b5c-fdc5c8fbf42f.png">
+
+---
+
+
+<img width="964" alt="스크린샷 2022-05-18 오후 3 44 40" src="https://user-images.githubusercontent.com/79779676/168974688-3ed1f961-fe9e-469f-a7b8-c4c9325cfa93.png">
+
+---
+
+
+<img width="959" alt="스크린샷 2022-05-18 오후 3 44 46" src="https://user-images.githubusercontent.com/79779676/168974689-5c019d56-ef0e-473d-a531-c9042396ddb5.png">
+
+---
+
+
+<img width="954" alt="스크린샷 2022-05-18 오후 3 44 51" src="https://user-images.githubusercontent.com/79779676/168974691-4c2bca88-d3fb-43d4-88e1-6979f9bca28f.png">
+
+---
+
+
+<img width="962" alt="스크린샷 2022-05-18 오후 3 44 56" src="https://user-images.githubusercontent.com/79779676/168974696-07cb9c66-9cd1-41d5-b01e-6a23cade0ee1.png">
+
+---
+
+
+<img width="958" alt="스크린샷 2022-05-18 오후 3 45 01" src="https://user-images.githubusercontent.com/79779676/168974699-29b5bcaf-ec3e-4e3f-8e1f-755f52470e81.png">
+
+---
+
+
+<img width="953" alt="스크린샷 2022-05-18 오후 3 45 06" src="https://user-images.githubusercontent.com/79779676/168974702-27928014-ef5f-47e4-b532-3e12510c6ded.png">
+
+---
+
+
+<img width="961" alt="스크린샷 2022-05-18 오후 3 45 12" src="https://user-images.githubusercontent.com/79779676/168974707-7eba626b-8f11-4b42-ab8b-0ddf0c635db5.png">
+
+---
+
+
+<img width="958" alt="스크린샷 2022-05-18 오후 3 45 17" src="https://user-images.githubusercontent.com/79779676/168974710-e6ead11a-f7dc-43eb-a96f-508980c16594.png">
+
+---
+
+
+<img width="954" alt="스크린샷 2022-05-18 오후 3 45 22" src="https://user-images.githubusercontent.com/79779676/168974714-d594a087-73e7-49cb-90b1-ed7df3728fa5.png">
+
+---
+
+
+<img width="957" alt="스크린샷 2022-05-18 오후 3 45 27" src="https://user-images.githubusercontent.com/79779676/168974720-9f7b5a74-983b-4f43-83b1-a897ba900e5d.png">
+
+---
+
+
+<img width="959" alt="스크린샷 2022-05-18 오후 3 45 34" src="https://user-images.githubusercontent.com/79779676/168974725-7f355b33-59ff-4aab-b01a-d8570bcdd69d.png">
+
+---
+
+
+<img width="949" alt="스크린샷 2022-05-18 오후 3 45 39" src="https://user-images.githubusercontent.com/79779676/168974728-08fa885e-801d-4f56-84e6-2690afe2dd0c.png">
+
+---
+
+
+<img width="947" alt="스크린샷 2022-05-18 오후 3 45 44" src="https://user-images.githubusercontent.com/79779676/168974729-9f711b60-ab1b-4531-ac49-e798b2823630.png">
+
+---
+
+
+<img width="951" alt="스크린샷 2022-05-18 오후 3 45 49" src="https://user-images.githubusercontent.com/79779676/168974731-335104c5-35ed-4d54-b794-01210ff6a05b.png">
+
+---
+
+
+<img width="983" alt="스크린샷 2022-05-18 오후 3 45 56" src="https://user-images.githubusercontent.com/79779676/168974735-3a53be54-b0f7-4c38-90e6-926d0a4ddccf.png">
+
+
+---
+
+
 
 <table>
   <tr>
