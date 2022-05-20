@@ -2,7 +2,15 @@
 
 <br/>
 
+투 포인터는 1차원 배열에서 두개의 포인터를 조작하면서 원하는 결과를 얻는 알고리즘입니다.
 
+보통 부분합의 최대나 최소값을 구하거나, 1차원 배열에서 두 숫자의 합이 조건과 같은 것의 개수 등을 구할때 사용합니다.
+
+투 포인터의 개념을 잘 이해하고 적재적소에 사용하면 드라마틱한 시간복잡도 개선을 할 수 있습니다.
+
+<br/><br/>
+
+##  ✌️투 포인터의 진행과정
 
 <img width="968" alt="스크린샷 2022-05-18 오후 3 44 16" src="https://user-images.githubusercontent.com/79779676/168974668-e0e6e696-6b26-48d9-ad74-8bf2f2c96a52.png">
 
@@ -97,7 +105,47 @@
 
 ---
 
+<br/><br/>
 
+# 소스코드
+
+```c++
+// 언어 : C++ , (성공/실패) : 1/0 , 메모리 : 2024 KB , 시간 : 0ms
+#include <iostream>
+#include <vector>
+#include <algorithm>
+#include <string.h> // memset
+
+using namespace std;
+
+int main(void){
+    // 입출력 속도 최적화
+    ios::sync_with_stdio(0);
+    cin.tie(0); cout.tie(0);
+
+    int arr[10] = {5, 1, 3, 5, 10, 7, 4, 9, 2, 8};
+
+    int sum = arr[0], check = 15;
+    int s_p=0, e_p=0, Min_Length = 100001;
+    // 시간복잡도 O(N)
+    while(e_p < 10){
+        if(sum == check) Min_Length = min(Min_Length, e_p-s_p+1); // sum과 check가 같다면 길이 작은거 업데이트
+        if(sum >= check){ // sum이 check보다 크거나 같다면
+            sum -= arr[s_p]; // 현재 arr[s_p]의 값을 빼주고
+            s_p++; // s_p를 +1 해준다.
+        }else{ // sum이 check보다 작다면
+            e_p++; // e_p를 +1 해주고
+            sum += arr[e_p]; // arr[e_p] 값을 더해준다.
+        }
+    }
+    
+    cout<<(Min_Length==100001?0:Min_Length)<<'\n';
+
+    return 0;
+}
+```
+
+## 
 
 <table>
   <tr>
@@ -111,42 +159,58 @@
   <tr>
     <td align="center">01</td>
     <td align="center">✅</td>
-    <td align="center"><img height="23px" width="25px" src="https://d2gd6pc034wcta.cloudfront.net/tier/5.svg"></td>
-    <td align="center">2750</td>
-    <td align="center">수 정렬하기</td>
-    <td align="center"><a href="https://www.acmicpc.net/problem/2750">바로가기</a></td>
+    <td align="center"><img height="23px" width="25px" src="https://d2gd6pc034wcta.cloudfront.net/tier/8.svg"></td>
+    <td align="center">2003</td>
+    <td align="center">수들의 합 2</td>
+    <td align="center"><a href="https://www.acmicpc.net/problem/2003">바로가기</a></td>
   </tr>
   <tr>
     <td align="center">02</td>
     <td align="center">✅</td>
-    <td align="center"><img height="23px" width="25px" src="https://d2gd6pc034wcta.cloudfront.net/tier/6.svg"></td>
-    <td align="center">2751</td>
-    <td align="center">수 정렬하기 2</td>
-    <td align="center"><a href="https://www.acmicpc.net/problem/2751">바로가기</a></td>
+    <td align="center"><img height="23px" width="25px" src="https://d2gd6pc034wcta.cloudfront.net/tier/10.svg"></td>
+    <td align="center">20922</td>
+    <td align="center">겹치는 건 싫어</td>
+    <td align="center"><a href="https://www.acmicpc.net/problem/20922">바로가기</a></td>
   </tr>
   <tr>
     <td align="center">03</td>
     <td align="center">✅</td>
-    <td align="center"><img height="23px" width="25px" src="https://d2gd6pc034wcta.cloudfront.net/tier/6.svg"></td>
-    <td align="center">10989</td>
-    <td align="center">수 정렬하기 3</td>
-    <td align="center"><a href="https://www.acmicpc.net/problem/10989">바로가기</a></td>
+    <td align="center"><img height="23px" width="25px" src="https://d2gd6pc034wcta.cloudfront.net/tier/12.svg"></td>
+    <td align="center">1806</td>
+    <td align="center">부분합</td>
+    <td align="center"><a href="https://www.acmicpc.net/problem/1806">바로가기</a></td>
   </tr>
   <tr>
     <td align="center">04</td>
-    <td align="center"></td>
+    <td align="center">✅</td>
     <td align="center"><img height="23px" width="25px" src="https://d2gd6pc034wcta.cloudfront.net/tier/6.svg"></td>
-    <td align="center">1427</td>
-    <td align="center">소트인사이드</td>
-    <td align="center"><a href="https://www.acmicpc.net/problem/1427">바로가기</a></td>
+    <td align="center">11728</td>
+    <td align="center">배열 합치기</td>
+    <td align="center"><a href="https://www.acmicpc.net/problem/11728">바로가기</a></td>
   </tr>
   <tr>
     <td align="center">05</td>
-    <td align="center"></td>
-    <td align="center"><img height="23px" width="25px" src="https://d2gd6pc034wcta.cloudfront.net/tier/7.svg"></td>
-    <td align="center">2108</td>
-    <td align="center">통계학</td>
-    <td align="center"><a href="https://www.acmicpc.net/problem/2108">바로가기</a></td>
+    <td align="center">✅</td>
+    <td align="center"><img height="23px" width="25px" src="https://d2gd6pc034wcta.cloudfront.net/tier/8.svg"></td>
+    <td align="center">3273</td>
+    <td align="center">두 수의 합</td>
+    <td align="center"><a href="https://www.acmicpc.net/problem/3273">바로가기</a></td>
+  </tr>
+  <tr>
+    <td align="center">06</td>
+    <td align="center">✅</td>
+    <td align="center"><img height="23px" width="25px" src="https://d2gd6pc034wcta.cloudfront.net/tier/10.svg"></td>
+    <td align="center">2531</td>
+    <td align="center">회전초밥</td>
+    <td align="center"><a href="https://www.acmicpc.net/problem/2531">바로가기</a></td>
+  </tr>
+  <tr>
+    <td align="center">07</td>
+    <td align="center">✅ (Bonus)</td>
+    <td align="center"><img height="23px" width="25px" src="https://d2gd6pc034wcta.cloudfront.net/tier/12.svg"></td>
+    <td align="center">15961</td>
+    <td align="center">회전초밥</td>
+    <td align="center"><a href="https://www.acmicpc.net/problem/15961">바로가기</a></td>
   </tr>
 </table>
 
