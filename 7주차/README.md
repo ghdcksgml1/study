@@ -217,17 +217,9 @@ int main(void){
     <td align="center">1920</td>
     <td align="center">수 찾기</td>
     <td align="center"><a href="https://www.acmicpc.net/problem/1920">바로가기</a></td>
-  </tr>
+    </tr>
   <tr>
     <td align="center">02</td>
-    <td align="center">✅</td>
-    <td align="center"><img height="23px" width="25px" src="https://d2gd6pc034wcta.cloudfront.net/tier/6.svg"></td>
-    <td align="center">2417</td>
-    <td align="center">정수 제곱근</td>
-    <td align="center"><a href="https://www.acmicpc.net/problem/2417">바로가기</a></td>
-  </tr>
-  <tr>
-    <td align="center">03</td>
     <td align="center">✅</td>
     <td align="center"><img height="23px" width="25px" src="https://d2gd6pc034wcta.cloudfront.net/tier/8.svg"></td>
     <td align="center">19637</td>
@@ -235,7 +227,7 @@ int main(void){
     <td align="center"><a href="https://www.acmicpc.net/problem/19637">바로가기</a></td>
   </tr>
   <tr>
-    <td align="center">04</td>
+    <td align="center">03</td>
     <td align="center">✅</td>
     <td align="center"><img height="23px" width="25px" src="https://d2gd6pc034wcta.cloudfront.net/tier/8.svg"></td>
     <td align="center">11663</td>
@@ -243,7 +235,7 @@ int main(void){
     <td align="center"><a href="https://www.acmicpc.net/problem/11663">바로가기</a></td>
   </tr>
   <tr>
-    <td align="center">05</td>
+    <td align="center">04</td>
     <td align="center">✅</td>
     <td align="center"><img height="23px" width="25px" src="https://d2gd6pc034wcta.cloudfront.net/tier/10.svg"></td>
     <td align="center">3079</td>
@@ -251,7 +243,7 @@ int main(void){
     <td align="center"><a href="https://www.acmicpc.net/problem/3079">바로가기</a></td>
   </tr>
   <tr>
-    <td align="center">06</td>
+    <td align="center">05</td>
     <td align="center">✅</td>
     <td align="center"><img height="23px" width="25px" src="https://d2gd6pc034wcta.cloudfront.net/tier/11.svg"></td>
     <td align="center">20444</td>
@@ -259,7 +251,7 @@ int main(void){
     <td align="center"><a href="https://www.acmicpc.net/problem/20444">바로가기</a></td>
   </tr>
   <tr>
-    <td align="center">07</td>
+    <td align="center">06</td>
     <td align="center"></td>
     <td align="center"><img height="23px" width="25px" src="https://d2gd6pc034wcta.cloudfront.net/tier/12.svg"></td>
     <td align="center">1477</td>
@@ -267,7 +259,7 @@ int main(void){
     <td align="center"><a href="https://www.acmicpc.net/problem/1477">바로가기</a></td>
   </tr>
   <tr>
-    <td align="center">08</td>
+    <td align="center">07</td>
     <td align="center"></td>
     <td align="center"><img height="23px" width="25px" src="https://d2gd6pc034wcta.cloudfront.net/tier/12.svg"></td>
     <td align="center">2473</td>
@@ -275,7 +267,7 @@ int main(void){
     <td align="center"><a href="https://www.acmicpc.net/problem/2473">바로가기</a></td>
   </tr>
   <tr>
-    <td align="center">09</td>
+    <td align="center">08</td>
     <td align="center"></td>
     <td align="center"><img height="23px" width="25px" src="https://d2gd6pc034wcta.cloudfront.net/tier/13.svg"></td>
     <td align="center">2412</td>
@@ -283,7 +275,7 @@ int main(void){
     <td align="center"><a href="https://www.acmicpc.net/problem/2412">바로가기</a></td>
   </tr>
   <tr>
-    <td align="center">10</td>
+    <td align="center">09</td>
     <td align="center"></td>
     <td align="center"><img height="23px" width="25px" src="https://d2gd6pc034wcta.cloudfront.net/tier/14.svg"></td>
     <td align="center">1300</td>
@@ -291,7 +283,7 @@ int main(void){
     <td align="center"><a href="https://www.acmicpc.net/problem/1300">바로가기</a></td>
   </tr>
   <tr>
-    <td align="center">11</td>
+    <td align="center">10</td>
     <td align="center"></td>
     <td align="center"><img height="23px" width="25px" src="https://d2gd6pc034wcta.cloudfront.net/tier/14.svg"></td>
     <td align="center">7453</td>
