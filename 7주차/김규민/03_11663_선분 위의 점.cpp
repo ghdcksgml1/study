@@ -1,4 +1,5 @@
 
+// 언어 : C++ , (성공/실패) : 1/0 , 메모리 : 2416 KB , 시간 : 72ms
 using namespace std;
 #include <iostream>
 #include <algorithm>
