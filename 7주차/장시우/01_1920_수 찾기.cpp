@@ -1,4 +1,4 @@
-﻿// 언어 : C++ , (성공/실패) : 3/0 , 메모리 : 2412 KB , 시간 : 52ms
+﻿// 언어 : C++ , (성공/실패) : 4/0 , 메모리 : 2412 KB , 시간 : 52ms
 
 #include <iostream>
 #include <algorithm>
@@ -12,19 +12,20 @@ int n, m;
 void binarySearch(int key) {
     int st = 0;
     int en = n - 1;
-    int mid;
 
-    while (en >=st) {
+    while (st <= en) {
+
         int mid = (st + en) / 2;
-        if (A[mid] == key) {
-            cout << 1 << '\n';
-            return;
-        }
-        else if (A[mid] > key) {
+
+        if (A[mid] >= key) {
+            if (A[mid] == key) {
+                cout << 1 << '\n';
+                return;
+            } 
             en = mid - 1;
         }
-        else{ 
-            st = mid + 1; 
+        else {
+            st = mid + 1;
         }
     }
 
@@ -38,22 +39,20 @@ void binarySearch(int key) {
 
 int main(void) {
 
-    // 입출력 속도 최적화
     ios::sync_with_stdio(0);
     cin.tie(0); cout.tie(0);
 
-
-
     cin >> n;
-    int temp;
+
     for (int i = 0; i < n; i++) {
-        cin >> temp;
-        A[i] = temp;
+        cin >> A[i];
     }
 
     sort(A, A + n);
 
     cin >> m;
+
+    int temp;
 
     for (int i = 0; i < m; i++) {
         cin >> temp;
