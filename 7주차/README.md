@@ -236,7 +236,7 @@ int main(void){
   </tr>
   <tr>
     <td align="center">04</td>
-    <td align="center">✅</td>
+    <td align="center"></td>
     <td align="center"><img height="23px" width="25px" src="https://d2gd6pc034wcta.cloudfront.net/tier/10.svg"></td>
     <td align="center">3079</td>
     <td align="center">입국심사</td>
@@ -244,7 +244,7 @@ int main(void){
   </tr>
   <tr>
     <td align="center">05</td>
-    <td align="center">✅</td>
+    <td align="center"></td>
     <td align="center"><img height="23px" width="25px" src="https://d2gd6pc034wcta.cloudfront.net/tier/11.svg"></td>
     <td align="center">20444</td>
     <td align="center">색종이와 가위</td>
