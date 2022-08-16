@@ -289,7 +289,7 @@ int main(void){
     <td align="center">✅</td>
     <td align="center">✅</td>
     <td align="center">✅</td>
-    <td align="center"></td>
+    <td align="center">✅</td>
     <td align="center"></td>
   </tr>
   <tr>
